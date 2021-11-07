@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>NACIONALIDADE</h1>
+    Em qual pais você nasceu? <input type="text" name="nasc" id="nasc">
+    <input type="button" value="VERIFICAR" onclick="procurar()">
+
+    <div id="nacional">
+
+    </div>
+
+    <script>
+        function procurar() {
+            var brasileiro = 'Brasil'
+            var pais = window.document.querySelector('input#nasc')
+            var nascionalidade = window.document.querySelector('div#nacional')
+            nacional.innerHTML = `<p>Sua <strong>NACIONALIDADE</strong> é...</p>`
+
+            if (pais == brasileiro) {
+                nacional.innerHTML = `<p>Você é BRASILEIRO</p>`
+
+            }
+
+        }
+    </script>
+</body>
+</html>
