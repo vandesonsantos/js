@@ -9,25 +9,20 @@
 <body>
     <h1>NACIONALIDADE</h1>
 
-    Em qual pais você nasceu? <input type="text" id="nasc">
+    Em qual pais você nasceu? <input type="text" name="nasc" id="nasc">
     <input type="button" value="VERIFICAR" onclick="procurar()">
 
     <div id="nacional">
-        Sua <strong>NACIONALIDADE</strong> é?
 
     </div>
 
     <script>
         function procurar() {
-            var nacionalidade = 'Brasil'
             var pais = window.document.querySelector('input#nasc')
-            var d = window.document.querySelector('div#nacional')
-
-            if (pais == nacionalidade) {
-                nacional.innerHTML += `Você é BRASILEIRO`
-
-            }
-
+            var nacional = window.document.querySelector('div#nacional')
+            var resposta = Text(nasc.value)
+            nacional.innerHTML = `<P>Sua Nacionalidade é ${resposta}</P>`
+            nacional.innerHTML += `olá`
         }
     </script>
 </body>
