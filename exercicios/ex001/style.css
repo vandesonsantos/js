@@ -1,5 +1,11 @@
 @charset "UTF-08";
 
+:root {
+    --manha: #C2AF2D;
+    --tarde: #CC975F;
+    --noite: #584C7A;
+}
+
 body {
     background-color: darkcyan;
     font: normal 15px arial;
@@ -13,7 +19,9 @@ header {
 
 section {
     background-color: white;
-    width: 500px;
+    width: 400px;
+    height: 300px;
+    text-align: center;
     border-radius: 10px;
     padding: 15px;
     margin: auto;
