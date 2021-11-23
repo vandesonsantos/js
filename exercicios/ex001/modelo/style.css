@@ -3,7 +3,7 @@
 :root {
     --manha: #C2AF2D;
     --tarde: #CC975F;
-    --noite: #201b29;
+    --noite: #584C7A;
 }
 
 body {
@@ -26,10 +26,6 @@ section {
     padding: 15px;
     margin: auto;
     box-shadow: 3px 3px 10px black;
-}
-
-section > div#foto {
-    padding: 15px;
 }
 
 footer {
