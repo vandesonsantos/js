@@ -2,16 +2,26 @@
 
 body {
     background-color: darkcyan;
+    font: normal 15px arial;
 }
 
 header {
+    color: white;
+    text-align: center;
 
 }
 
 section {
-    
+    background-color: white;
+    width: 500px;
+    border-radius: 10px;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 3px 3px 10px black;
 }
 
 footer {
     color: white;
+    text-align: center;
+    font-style: italic;
 }
