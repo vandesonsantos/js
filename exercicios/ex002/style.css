@@ -1,0 +1,33 @@
+@charset "UTF-08";
+
+:root {
+    --azul: #0971d1;
+}
+
+body {
+    font: normal 15px arial;
+    background-color: var(--azul);
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    width: 450px;
+    height: 150px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px black;
+}
+
+
+
+footer > p {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
