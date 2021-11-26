@@ -8,8 +8,7 @@
     <title>Verificador de Idade</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body onload="procurar()">
-
+<body>
     <header>
         <h1>Verificador de idade</h1>
     </header>
@@ -21,8 +20,8 @@
             </p> 
 
             <p>Sexo:
-                <input type="radio" id="mas" checked> Masculino
-                <input type="radio" id="fem"> Feminino
+                <input type="radio" name="sex" id="mas" checked> Masculino
+                <input type="radio" name="sex" id="fem"> Feminino
             </p>
 
             <p>
@@ -33,13 +32,7 @@
         <div id="msg">
             <p>Preencha os dados acimas para ver o resultado!</p>
         </div>
-
-        <div id="foto">
-            <img id="imagem" src="" alt="">
-        </div>
-
     </section>
-    
     
     <footer>
         <p>&copy;VandesonSantos/FontEnd-DEV</p>
